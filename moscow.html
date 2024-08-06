@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moscow</title> 
+     <link rel="stylesheet" href="/css/moscow.css">
+     <link rel="stylesheet" href="/index.html">
+
+     <script src="/js/time.js"></script>
+</head>
+
+<body>
+    <div class="video-wrapper">
+        <video playsinline autoplay muted loop poster="/img/layer-base.png" >
+            <source src="/img/moscow.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="weather">
+        <div class="container">
+            <div class="content"> 
+                <img 
+                class="wg-mosk" 
+                src="/img/wg-mosk (2).png"
+                alt="облачно"
+                >
+                <div class="raion"
+                >Центральный район, Москва
+                </div>
+                <div class="temper"
+                > +19°
+                </div>
+                <div class="oblachno"
+                >Облачно<br />Ощущается как +18°
+                </div>
+                <a class="btn__back" href="javascript:history.back()">Назад</a>
+                <div class="znachenia"
+                >Скорость ветра: 4,0 м/c,СЗ<br />
+                Влажность: 56%<br />
+                Давление: 739 мм рт.ст
+                </div>
+                <div class="timer">
+                    <p id="clock">Javascript Clock</p>
+                </div>
+                <div class="polosa-V"></div>
+                <div class="polosa"></div>    
+                
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
